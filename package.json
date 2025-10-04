@@ -1,15 +1,12 @@
 {
-  "name": "bdfd-feedback-api",
+  "name": "my-feedback-api",
   "version": "1.0.0",
-  "description": "BDFD bot geri bildirim API",
-  "main": "api/feedback.js",
-  "scripts": {
-    "start": "vercel dev"
-  },
+  "main": "api/send.js",
+  "type": "module",
   "dependencies": {
     "nodemailer": "^6.9.4"
   },
-  "engines": {
-    "node": "20.x"
+  "scripts": {
+    "start": "vercel dev"
   }
 }
